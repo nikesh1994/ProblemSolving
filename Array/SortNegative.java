@@ -7,6 +7,10 @@ public class SortNegative {
 
     Time Complexity - O(n)
     Space Complexuty - O(1)
+
+    -1,2,-3,4,5,-5,6
+    1)-1,6,-3,4,5,-5,2
+    -1,-5,-3,4,5,6,2
      */
 
     public static void sortNegative(int a[], int n) {
@@ -29,7 +33,7 @@ public class SortNegative {
     }
 
     public static void main(String []args) {
-        int a[] = {-1,3,4,5,6,-2,-5,-9,-11,66,77,-66};
+        int a[] = {-12, 11, -13, -5, 6, -7, 5, -3, -6};
         sortNegative(a,a.length);
     }
 }

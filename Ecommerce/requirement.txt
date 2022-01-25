@@ -1,0 +1,8 @@
+1) End Users : Customer (see product like Search option, Add/delete/modify product to card , can see cart)
+   a) Guest -> addAccount
+   b) User(extends Customer) member of e-commerce
+   c) Seller (A user which can add products)
+   d) Buyer (A user -> Buy Product , Add Reivews)
+   e) Notification Service -> (change in order status or when order is placed)
+   f) User can track the order at any specific time
+

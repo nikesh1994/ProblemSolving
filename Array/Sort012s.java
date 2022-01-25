@@ -4,7 +4,7 @@ package Array;
 
 public class Sort012s {
 
-    /* One solution would be count the no of 0s,1s and 2s and fille the array with 0
+    /* One solution would be count the no of 0s,1s and 2s and fill the array with 0
     with index 0 to count on 0s and so on . TC : 0(n), but it will require two passes
     one to find the count and another to fill the array. Another solution would be
     Dutch National Flag Algo
